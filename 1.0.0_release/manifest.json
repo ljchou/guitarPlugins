@@ -1,0 +1,17 @@
+{
+	"name": "Guitar Traning",
+	"manifest_version": 2,
+	"version": "1.0.0",
+	"description": "Guitar traning, help you learn fast!",
+	"browser_action": {
+		"default_title": "Guitar traning",
+		"default_icon": "icons/64.png",
+		"default_popup": "popup.html"
+	},
+	"permissions": [
+		"storage",
+		"http://*/",
+		"https://*/"
+	],
+	"content_security_policy": "script-src 'unsafe-eval' 'self' 'unsafe-hashes'; object-src 'self'"
+}
